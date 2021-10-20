@@ -1,0 +1,12 @@
+{
+    "theme":{
+        "type": "dropdown",
+        "value": 2,
+        "text": "theme",
+        "items": [
+            "light",
+            "dark",
+            "auto"
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    height: 100%;
+    width: 100%;
+}
+
+.mainContainer
+{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+#timerContainer
+{
+    height: 50%;
+    width: 28%;
+    margin-top: 13%;
+    margin-left: 35%;
+    position: fixed;
+}
+
+#timer
+{
+    margin-top: -55%;
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+    color:#3692ff;
+}
+
+.svgCircle
+{
+    height: 100%;
+    width: 100%;
+    transform: rotate(-90deg);
+}
+
+.circle
+{
+    stroke: #3692ff;
+    fill: none;
+    stroke-dasharray: 252;
+}
+
+@keyframes wipe {
+    0% {
+        stroke-dashoffset: -252;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes generate {
+    0% {
+        stroke-dashoffset: -252;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

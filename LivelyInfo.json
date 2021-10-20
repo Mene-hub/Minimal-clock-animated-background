@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.7.2.4",
+  "Title": "Minimal Clock wallpaper",
+  "Thumbnail": "wallpaper.png",
+  "Preview": "",
+  "Desc": "Minimal animated clock personalizable based on windows 11 color and design",
+  "Author": "Claudio Menegotto, mene-hub",
+  "License": null,
+  "Contact": "http://claudio.menegotto.unaux.com",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
