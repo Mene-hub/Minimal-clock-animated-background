@@ -1,4 +1,6 @@
-this html page is thinked to work on lively wallpaper 
+this html page is thinked to work on lively wallpaper,
+
+you can choose light or dark mode, but with auto propeties it change with your os!
 
 <ul>
   <li> 
