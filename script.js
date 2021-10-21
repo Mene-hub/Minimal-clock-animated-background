@@ -56,7 +56,7 @@ function setTime(){
     var h_ = d.getHours().toString();
     var m_ = d.getMinutes().toString();
 
-    console.log(d.getSeconds());
+    //console.log(d.getSeconds());
 
     if(h_.length<2)
         h_ = "0" + h_;
