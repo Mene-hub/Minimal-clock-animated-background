@@ -3,8 +3,6 @@ body
     padding:0px;
     margin:0px;
     border:0px;
-    height: 100%;
-    width: 100%;
 }
 
 .mainContainer
@@ -17,25 +15,27 @@ body
 
 #timerContainer
 {
-    height: 50%;
-    width: 28%;
-    margin-top: 13%;
-    margin-left: 35%;
-    position: fixed;
+    height: auto;
+    width: 40%;
+    padding-left: 30%;
 }
 
 #timer
 {
-    margin-top: -55%;
-    font-size: 250%;
+    height: 5%;
+    width: 40%;
+    text-align: center;
+    font-size: 200%;
     font-family: 'Roboto', sans-serif;
     color:#3692ff;
+    position: fixed;
+    padding-top: 18.5%;
 }
 
 .svgCircle
 {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     transform: rotate(-90deg);
 }
 

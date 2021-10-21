@@ -14,8 +14,8 @@ function load()
     body = document.getElementsByTagName("body")[0];
     
     checkTheme();
-
     setTime();
+    resized();
 
     var d = new Date();
     var circle = document.getElementsByClassName("circle")[0];
@@ -101,4 +101,11 @@ function livelyPropertyListener(name, val)
             checkTheme();
             break;
     }
+}
+
+function resized()
+{
+    var win_dim = body.offsetHeight;
+    var circle = document.getElementById("timerContainer");
+    circle.setAttribute("style", "padding-top:" + (win_dim - circle.offsetHeight)/2 + "px;");
 }
